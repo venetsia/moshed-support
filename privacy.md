@@ -19,15 +19,11 @@ Moshed makes outbound requests to these services to look up artist information. 
 
 | Service | Purpose | Privacy |
 |---|---|---|
-| [Deezer](https://www.deezer.com/legal/personal-datas) | Artist photos | No account required |
 | [MusicBrainz](https://metabrainz.org/privacy) | Artist metadata | No account required |
 | [iTunes Search API](https://www.apple.com/legal/privacy/) | Track and release info | No account required |
 
 ### Spotify
-Moshed connects to Spotify's API to fetch artist images and top tracks. If you choose to connect Spotify, you will be asked to authorise access via Spotify's own login screen. We do not store your Spotify credentials or any personal Spotify account data. See [Spotify's Privacy Policy](https://www.spotify.com/legal/privacy-policy/).
-
-### Apple Music (MusicKit)
-If you use the playlist feature, Moshed uses Apple's MusicKit framework to create playlists in your Apple Music library. This requires an active Apple Music subscription and your permission. No music data is sent to Moshed's servers (we have none). See [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
+Moshed uses the Spotify Web API to fetch artist images and top tracks using app-level credentials only. No Spotify login is required and no personal Spotify account data is accessed. See [Spotify's Privacy Policy](https://www.spotify.com/legal/privacy-policy/).
 
 ## Device Permissions
 
@@ -53,7 +49,7 @@ Because this app is operated from the UK, the following rights apply to you:
 - **Right to data portability** — you can ask for your data in a machine-readable format
 - **Right to object** — you can object to processing based on legitimate interests
 
-Since Moshed stores data only on your device, exercising most of these rights means simply deleting the app. For anything handled by third-party services (Spotify, Apple Music), please refer to their respective policies. To exercise any right or ask a question, email **hammynest@gmail.com**.
+Since Moshed stores data only on your device, exercising most of these rights means simply deleting the app. For anything handled by third-party services (Spotify, Apple), please refer to their respective policies. To exercise any right or ask a question, email **hammynest@gmail.com**.
 
 You also have the right to lodge a complaint with the **Information Commissioner's Office (ICO)** at [ico.org.uk](https://ico.org.uk).
 
